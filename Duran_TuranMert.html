@@ -1,0 +1,71 @@
+<html>
+
+<body>
+
+  <script>
+  document.write('-------*-----Pretest---While--*--------');
+  let num = 10;
+  while(num>=0){
+    if( num == 8){
+      num--;
+      document.write("<br>");
+      document.write('-------*-----Continue at 8-----*--------');
+      continue;
+    }
+    if(num % 6 == 0){
+        document.write("<br>");
+        document.write('-------*-----Break at 6-----*--------');
+        document.write("<br>");
+      break;
+    }
+    document.write("<br>");
+    document.write(num);
+    num--;
+  }
+  document.write("<br>");
+  document.write("<br>");
+  document.write('-------*-----Pretest---For--*--------');
+  document.write("<br>");
+
+  for (var i = 10; i > 0; i--) { 
+
+    if( i == 8){
+      document.write('-------*-----Continue at 8-----*--------');
+      document.write("<br>");
+      continue;
+    }
+    if(i % 6 == 0){
+        document.write('-------*-----Break at 6-----*--------');
+        document.write("<br>");
+      break;
+    }
+    document.write(i);
+    document.write("<br>");
+  }
+  document.write("<br>");
+  document.write("<br>");
+  document.write('-------*-----Protest-----*--------');
+  let n = 10;
+  do{
+   if( n == 8){
+      n--;
+      document.write("<br>");
+      document.write('-------*-----Continue at 8-----*--------');
+      continue;
+    }
+    if(n % 6 == 0){
+        document.write("<br>");
+        document.write('-------*-----Break at 6-----*--------');
+        document.write("<br>");
+        break;
+    }
+    document.write("<br>");
+    document.write(n);
+    n--;
+  }while(n>=0);
+
+  </script>
+
+</body>
+
+</html>
